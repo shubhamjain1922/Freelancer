@@ -1,0 +1,153 @@
+.ui.menu {
+  margin: 0 !important;
+}
+
+@media (min-width:1200px) {
+  .prowrapper {
+    margin-right: 15px;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.modal-content {
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important;
+}
+
+.modal-header, .modal-body {
+  padding: 20px !important;
+}
+
+/* showjob */
+.showjobback {
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 20px!important;
+  margin-left: 30px;
+}
+.showjobback:hover {
+  text-decoration: underline;
+}
+
+.showjobdiv {
+  width: 100%;
+  padding: 40px 30px;
+  margin-top: 50px;
+  border: 1px solid rgba(173, 173, 173, 0.8);
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.showjobname {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #1d4c5c;
+  margin-bottom: 20px;
+}
+
+.showjobcat {
+  display: inline-block;
+  background: rgba(189, 187, 187, 0.25);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(92, 91, 91, 1);
+  margin-right: 20px;
+}
+
+.showjobbudget {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  display: inline-block;
+}
+
+#showjobacceptbut {
+  width: 150px;
+  padding: 10px 5px !important;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500 !important;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #367992 !important;
+  color: white !important;
+  border: none !important;
+  margin-bottom: 20px;
+}
+
+#showjobacceptbut:hover {
+  background-color: #2f697e !important;
+  color: white !important;
+}
+
+.showjobdesc {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.45px;
+  color: rgb(102, 102, 102);
+}
+
+.showjobproposals {
+  font-weight: 500;
+  font-size: 15px;
+  word-break: break-all;
+}
+
+.showjobmodaltitle {
+  font-size: 20px !important;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif !important;
+  color: #367992 !important;
+}
+
+#showjobdecline {
+  width: 150px;
+  padding: 10px 0 !important;
+  border-radius: 10px;
+  font-weight: 500 !important;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(216, 62, 62)!important;
+  color: white !important;
+  border: none !important;
+  margin-bottom: 20px;
+}
+
+#showprocon {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 15px 10px;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+}
+
+#showprotitle {
+  word-break: break-all;
+}
+
+#showprohiretext {
+  background: rgba(189, 187, 187, 0.25);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(92, 91, 91, 1);
+  display: inline-block;
+  margin-bottom: 10px;
+}
